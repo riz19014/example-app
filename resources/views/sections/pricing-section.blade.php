@@ -20,7 +20,7 @@
                 <li class="na">Secure backup</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Check in</a>
+                <a href="{{ route('login') }}" class="btn-buy">Check in</a>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@
                 <li>Secure backup</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Check in</a>
+                <a href="{{ route('login') }}" class="btn-buy">Check in</a>
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@
                 <li class="na">Secure backup</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Check in</a>
+                <a href="{{ route('login') }}" class="btn-buy">Check in</a>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@
                 <li>Secure backup</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Check in</a>
+                <a href="{{ route('login') }}" class="btn-buy">Check in</a>
               </div>
             </div>
           </div>
