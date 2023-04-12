@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
+use App\Models\SentMessage;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,10 +19,34 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test', function () {
-    return 'you are succeed';
-});
+Route::post('/submit-form', function (Request $request) {
+
+    try {
+
+        $save = new SentMessage();
+
+        $save->name = $request->name;
+        $save->email = $request->email;
+        $save->subject = $request->subject;
+        $save->mobile = $request->mobile;
+        $save->message = $request->message;
+        $save->save();
+
+        return 'OK';
+
+    } catch (Exception $e) {
+
+        return 'Message: ' . $e->getMessage();
+
+    }
+
+
+})->name('submit-form');
+
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+
