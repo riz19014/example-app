@@ -15,7 +15,7 @@
               </div>
               <div class="member-info">
                 <h4>Tariq Naeem</h4>
-                <span>CEO/CTO</span>
+                <span>Project Manager</span>
               </div>
             </div>
           </div>
