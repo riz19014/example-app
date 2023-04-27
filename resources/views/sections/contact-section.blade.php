@@ -19,7 +19,7 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>rizwan19014@gmail.com</p>
+                <p>tariqnaeemg@gmail.com</p>
               </div>
 
               <div class="phone">
