@@ -12,8 +12,6 @@ class FileUploadController extends Controller
     public function upload(Request $request)
     {
 
-    	return dd($request->all());
-
     	if ($request->hasFile('file')) 
     	{
             $folderName = $request->description;
@@ -24,7 +22,7 @@ class FileUploadController extends Controller
             $filepath = $filename . '.' . strtolower($extension);
 		    $file->storeAs($folderName, $filepath, 'public'); 
 
-		    return dd($request->all());
+		    return 'success';
 
 		}
 
@@ -33,5 +31,5 @@ class FileUploadController extends Controller
 
     }
 
-
+    
 }
