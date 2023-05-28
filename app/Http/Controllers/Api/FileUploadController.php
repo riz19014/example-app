@@ -14,19 +14,19 @@ class FileUploadController extends Controller
 
 
 
-        // return $request->all();
+        return $request->all();
 
-    	if (!is_null($request['file'])) 
-    	{
-            $folderName = $request['description'];
-    		$file = $request['file'];
-		    $file->storeAs($folderName, $file, 'public'); 
+  //   	if (!is_null($request['file'])) 
+  //   	{
+  //           $folderName = $request['description'];
+  //   		$file = $request['file'];
+		//     $file->storeAs($folderName, $file, 'public'); 
 
-		    return 'success';
+		//     return 'success';
 
-		}
+		// }
 
-		return 'false';
+		// return 'false';
 
 
     }
