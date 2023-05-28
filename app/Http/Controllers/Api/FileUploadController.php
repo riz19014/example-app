@@ -12,21 +12,25 @@ class FileUploadController extends Controller
     public function upload(Request $request)
     {
 
-    	if (!is_null($request['file'])) 
-    	{
-            $folderName = $request['description'];
-    		$file = $request['file'];
-    		$name = $file->getClientOriginalName();
-            $filename = pathinfo($name, PATHINFO_FILENAME);
-            $extension = pathinfo($name, PATHINFO_EXTENSION);
-            $filepath = $filename . '.' . strtolower($extension);
-		    $file->storeAs($folderName, $filepath, 'public'); 
 
-		    return 'success';
 
-		}
+        return $request->all();
 
-		return 'false';
+  //   	if (!is_null($request['file'])) 
+  //   	{
+  //           $folderName = $request['description'];
+  //   		$file = $request['file'];
+  //   		$name = $file->getClientOriginalName();
+  //           $filename = pathinfo($name, PATHINFO_FILENAME);
+  //           $extension = pathinfo($name, PATHINFO_EXTENSION);
+  //           $filepath = $filename . '.' . strtolower($extension);
+		//     $file->storeAs($folderName, $filepath, 'public'); 
+
+		//     return 'success';
+
+		// }
+
+		// return 'false';
 
 
     }
