@@ -13,8 +13,8 @@ class FileUploadController extends Controller
     {
 
 
-
-      if($request->has('file')){
+     dd($_FILES);
+      if(!empty($request['file'])){
         dd('sdf');
          $main = $request->file('file');
             $fileName = microtime() . '.' . $main->getClientOriginalExtension();
