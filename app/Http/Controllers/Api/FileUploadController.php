@@ -12,34 +12,21 @@ class FileUploadController extends Controller
     public function upload(Request $request)
     {
 
+      if(!empty($request['file']))
+      {
+            info('sdf');
+            $mainFile = $request->file('file');
+            $name = $mainFile->getClientOriginalName();
+            $filename = pathinfo($name, PATHINFO_FILENAME);
+            $extension = pathinfo($name, PATHINFO_EXTENSION);
+            $filepath = $filename . '.' . strtolower($extension);
+            $mainFile->storeAs($request['description'], $filepath, 'public');
+            
 
-     dd($_FILES);
-      if(!empty($request['file'])){
-        dd('sdf');
-         $main = $request->file('file');
-            $fileName = microtime() . '.' . $main->getClientOriginalExtension();
-            $img = Image::make($main->getRealPath());
-            $img->resize(400, 400);
-            $img->stream();
-            Storage::disk('local')->put( $fileName, $img, 'public');
-            // $blog->image_path = "/storage/blogs/" . $fileName;
+            return 'success';
         }
 
-
-
-        return $request->all();
-
-  //   	if (!is_null($request['file'])) 
-  //   	{
-  //           $folderName = $request['description'];
-  //   		$file = $request['file'];
-		//     $file->storeAs($folderName, $file, 'public'); 
-
-		//     return 'success';
-
-		// }
-
-		// return 'false';
+        return 'error';
 
 
     }
