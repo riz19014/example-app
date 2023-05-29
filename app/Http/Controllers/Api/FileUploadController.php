@@ -14,6 +14,19 @@ class FileUploadController extends Controller
 
 
 
+      if($request->has('file')){
+        dd('sdf');
+         $main = $request->file('file');
+            $fileName = microtime() . '.' . $main->getClientOriginalExtension();
+            $img = Image::make($main->getRealPath());
+            $img->resize(400, 400);
+            $img->stream();
+            Storage::disk('local')->put( $fileName, $img, 'public');
+            // $blog->image_path = "/storage/blogs/" . $fileName;
+        }
+
+
+
         return $request->all();
 
   //   	if (!is_null($request['file'])) 
