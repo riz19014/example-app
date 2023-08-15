@@ -19,7 +19,7 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>tariqnaeemg@gmail.com</p>
+                <p>info@mrtnsol.com</p>
               </div>
 
               <div class="phone">
