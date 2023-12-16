@@ -70,7 +70,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          {{--<div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
                 <img width="400" height="500" src="{{asset('assets/img/team/rizwan.jpeg')}}" class="img-fluid" alt="">
@@ -80,7 +80,7 @@
                 <span>CTO/Developer/Co-founder</span>
               </div>
             </div>
-          </div>
+          </div>--}}
 
           
 
