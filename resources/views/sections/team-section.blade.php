@@ -77,7 +77,7 @@
               </div>
               <div class="member-info">
                 <h4>Muhammad Rizwan</h4>
-                <span>Developer</span>
+                <span>CTO/Developer/Co-founder</span>
               </div>
             </div>
           </div>
