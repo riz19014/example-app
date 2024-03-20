@@ -25,7 +25,7 @@
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+92 321 6203448</p>
+                <p>+92 301 4028256</p>
               </div>
 
             </div>
