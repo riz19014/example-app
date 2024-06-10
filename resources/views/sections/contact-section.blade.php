@@ -13,7 +13,7 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>Gulberg, Lahore</p>
+                <p>8J Block M Gulberg 3, Lahore</p>
               </div>
 
               <div class="email">

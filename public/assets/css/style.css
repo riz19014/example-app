@@ -1575,3 +1575,31 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.icon-container {
+  width: 200px;  /* Set the size for the circular container */
+  height: 200px; /* Ensure the height matches the width for a perfect circle */
+  border-radius: 50%; /* Make the container circular */
+  overflow: hidden; /* Ensure child elements are contained within the circle */
+  display: inline-block; /* Display icons in the same line */
+  margin-right: 20px; /* Add space between icons */
+}
+
+.icon {
+  width: 100%; /* Make the icon take up the full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Fit the image inside the container */
+}
+
+.cta .container {
+  display: flex;
+  align-items: center;
+}
+
+.cta .row {
+  width: 100%;
+}
+
+.cta-btn-container {
+  margin-top: 20px; /* Add space above the button */
+}

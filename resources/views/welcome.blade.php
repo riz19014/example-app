@@ -56,7 +56,7 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#team">Testimonials</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -89,21 +89,68 @@
 
     <!-- ======= Cta Section ======= -->
 
-    <section id="cta" class="cta">
+    {{--<section id="cta" class="cta">
       <div class="container">
 
         <div class="row" data-aos="zoom-out">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> We are more than just a Tech company. Here is a bit of our history and the story behind how we have become a digital transformation company.</p>
+            <h3>Our Technology Stack</h3>
+            <p>At our company, we leverage a robust and modern technology stack to deliver high-quality software solutions.</p>
+    
+        <p>Our technology stack includes Laravel for elegant PHP web development, Vue.js and JavaScript for dynamic user interfaces, HTML, jQuery, and Bootstrap for responsive and interactive designs, and PHP for robust server-side scripting.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle animate__animated animate__fadeInUp scrollto" href="#hero">Call To Action</a>
-          </div>
+            <a class="cta-btn align-middle animate__animated animate__fadeInUp scrollto" href="#hero">Discover Our Solutions</a>
+        </div>
         </div>
 
       </div>
-    </section>
+    </section>--}}
+
+
+    {{--<section id="cta" class="cta">
+  <div class="container">
+    <div class="row align-items-center" data-aos="zoom-out">
+      <div class="col-lg-3 text-center">
+        <div class="laravel-icon-container">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNC4kMIrsWo_67GHURdA4MVwR_uj9_l-Sb5w&s" alt="Laravel" class="laravel-icon">
+        </div>
+      </div>
+      <div class="col-lg-9 text-lg-start">
+        <h3>Our Technology Stack</h3>
+        <p>At our company, we leverage the power of <strong >Laravel</strong> to develop robust, scalable, and maintainable software solutions.</p>
+      </div>
+      <div class="col-lg-12 cta-btn-container text-center mt-3">
+        <a class="cta-btn align-middle animate__animated animate__fadeInUp scrollto" href="#hero">Discover Our Solutions</a>
+      </div>
+    </div>
+  </div>
+</section>--}}
+
+
+<section id="cta" class="cta">
+  <div class="container">
+    <div class="row align-items-center" data-aos="zoom-out">
+      <div class="col-lg-3 text-center">
+        <div class="icon-container">
+          <img src="{{asset('assets/img/team/laravel.png')}}" alt="Laravel" class="icon">
+        </div>
+        <div class="icon-container">
+          <img src="{{asset('assets/img/team/php.png')}}" alt="PHP" class="icon">
+        </div>
+      </div>
+      <div class="col-lg-9 text-lg-start">
+        <h3>Our Technology Stack</h3>
+        <p>At our company, we leverage the power of <strong style="color: #ef6603;">Laravel</strong> and <strong style="color: #ef6603;">PHP</strong> to develop robust, scalable, and maintainable software solutions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
 
     <!-- End Cta Section -->
 
