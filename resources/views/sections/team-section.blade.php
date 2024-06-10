@@ -140,7 +140,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" style="text-align: center;">
               <div class="member-img">
-                <img width="240" height="240" src="{{asset('assets/img/team/ah7.png')}}" class="img-fluid" alt="">
+                <img width="240" height="240" src="{{asset('assets/img/team/ah.jpg')}}" class="img-fluid" alt="">
               </div>
               <div class="member-info">
                 <h4>Auto House</h4>
