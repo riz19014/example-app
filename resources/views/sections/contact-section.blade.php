@@ -20,6 +20,7 @@
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
                 <p>info@mrtnsol.com</p>
+                <p>rizwan@mrtnsol.com</p>
               </div>
 
               <div class="phone">
