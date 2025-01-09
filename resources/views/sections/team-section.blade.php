@@ -179,6 +179,20 @@
             </div>
         </div>
 
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" style="text-align: center;">
+                <div class="member-img">
+                    <img width="260" height="260" src="{{asset('assets/img/team/nishat.jpeg')}}" class="img-fluid" alt="">
+                </div>
+                <div class="member-info">
+                    <h4>Nishat</h4>
+                    <span>Delivered</span>
+                    <br>
+                    <a href="javascript:void(0)">Visit Nishat</a>
+                </div>
+            </div>
+        </div>
+
 
 
       </div>
