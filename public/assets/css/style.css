@@ -1629,3 +1629,26 @@ section {
   .tab-content {
     margin-top: 30px;
   }
+
+
+.member {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.member-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.member-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
