@@ -16,6 +16,7 @@ use App\Models\SentMessage;
 */
 
 Route::get('/', function () {
+    // dd('sdf');
     return view('welcome');
 });
 
